@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>แนะนำตัว</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    img {
+      width: fit-content;
+      height: fit-content;
+      object-fit: cover;
+    }
+
+    .info {
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    /* Center everything from the chimpanzee image down */
+    .bottom {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .bottom .info {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Left-aligned section -->
+  <div class="info">
+    <div>นายก้องภพ อุดมรัตน์</div>
+    <div>68219010003</div>
+    <div>ชอบกินข้าวหมูแดงครับ</div>
+  </div>
+
+  <img src="fish.jpg" alt="รูปสักอย่าง">
+
+  <!-- Centered section -->
+  <div class="bottom">
+    <img src="chimpanzee.jpg" alt="monkey">
+
+    <div class="info">
+      <div>เกรด 3.77</div>
+    </div>
+  </div>
+
+</body>
+</html>
